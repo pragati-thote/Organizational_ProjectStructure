@@ -5,6 +5,8 @@ import com.qa.base.BaseClass;
 import com.qa.pages.Dashboardpage;
 import com.qa.pages.Loginpage;
 import org.testng.annotations.BeforeMethod;
+import org.testng.annotations.DataProvider;
+
 import static org.testng.Assert.assertEquals;
 import java.io.IOException;
 import org.testng.annotations.AfterMethod;
@@ -44,6 +46,13 @@ public class LoginpageTest extends BaseClass{
   {
 	login.validateAppLogo();
   }
+  
+  @DataProvider()
+  public void getLoginTestData()
+  {
+	  
+  }
+  
   
   @Test(priority=3)
   public void loginTest() {
