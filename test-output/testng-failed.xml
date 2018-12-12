@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Suite]">
+  <test name="Test(failed)">
+    <classes>
+      <class name="com.qa.testcases.DashboardTest">
+        <methods>
+          <include name="setUp"/>
+          <include name="DashboardPageTitleTest"/>
+        </methods>
+      </class> <!-- com.qa.testcases.DashboardTest -->
+      <class name="com.qa.testcases.LoginpageTest">
+        <methods>
+          <include name="loginPageLogoTest"/>
+          <include name="loginPageTitleTest"/>
+          <include name="loginTest"/>
+          <include name="loginPageFormTitle"/>
+          <include name="setUp"/>
+        </methods>
+      </class> <!-- com.qa.testcases.LoginpageTest -->
+    </classes>
+  </test> <!-- Test(failed) -->
+</suite> <!-- Failed suite [Suite] -->
