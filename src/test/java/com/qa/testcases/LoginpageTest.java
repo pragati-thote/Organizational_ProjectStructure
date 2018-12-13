@@ -28,6 +28,11 @@ public class LoginpageTest extends BaseClass{
 	login=new Loginpage(driver) ;
   }
   
+  //retry analyzer use to retry the failure test cases=======
+  //It is test level retry analyzer
+  
+ // @Test(priority=1, retryAnalyzer=com.RetryAnalyzer.RetryAnalyzer.class)
+  
   @Test(priority=1)
   public void loginPageTitleTest() {
 	String title= login.validatePageTitle();
