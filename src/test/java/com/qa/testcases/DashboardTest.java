@@ -33,6 +33,12 @@ public class DashboardTest extends BaseClass{
 		String title= dashboard.verifyDashboardPageTitle();
 		System.out.println("dashboard page title: "+title);
 	  }
+	  
+	  
+	  
+	  
+	  
+	  
 
 	  @AfterMethod
 	  public void tearDown() {

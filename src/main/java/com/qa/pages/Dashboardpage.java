@@ -12,8 +12,6 @@ public class Dashboardpage {
 	
 	WebDriver driver;
 	
-	@FindBy(name="username")WebElement user_id;
-	
 	
 	public Dashboardpage(WebDriver webDriver) throws IOException {
 	        //This initElements method will create all WebElements

@@ -2,28 +2,28 @@
 <testng-results skipped="5" failed="0" ignored="0" total="5" passed="0">
   <reporter-output>
   </reporter-output>
-  <suite name="Suite" duration-ms="38424" started-at="2018-12-13T09:59:14Z" finished-at="2018-12-13T09:59:53Z">
+  <suite name="Suite" duration-ms="35202" started-at="2018-12-17T09:27:46Z" finished-at="2018-12-17T09:28:21Z">
     <groups>
     </groups>
-    <test name="Test" duration-ms="38424" started-at="2018-12-13T09:59:14Z" finished-at="2018-12-13T09:59:53Z">
+    <test name="Test" duration-ms="35202" started-at="2018-12-17T09:27:46Z" finished-at="2018-12-17T09:28:21Z">
       <class name="com.qa.testcases.DashboardTest">
-        <test-method status="FAIL" signature="setUp()[pri:0, instance:com.qa.testcases.DashboardTest@d0a7a6bc]" name="setUp" is-config="true" duration-ms="10490" started-at="2018-12-13T09:59:42Z" finished-at="2018-12-13T09:59:53Z">
+        <test-method status="FAIL" signature="setUp()[pri:0, instance:com.qa.testcases.DashboardTest@557e5898]" name="setUp" is-config="true" duration-ms="13362" started-at="2018-12-17T09:28:07Z" finished-at="2018-12-17T09:28:21Z">
           <exception class="org.openqa.selenium.WebDriverException">
             <message>
               <![CDATA[Reached error page: about:neterror?e=connectionFailure&u=http%3A//192.168.1.12%3A8000/&c=UTF-8&f=regular&d=Firefox%20can%E2%80%99t%20establish%20a%20connection%20to%20the%20server%20at%20192.168.1.12%3A8000.
 Build info: version: '3.12.0', revision: '7c6e0b3', time: '2018-05-08T14:04:26.12Z'
 System info: host: 'bynry01-ThinkCentre-M90', ip: '127.0.1.1', os.name: 'Linux', os.arch: 'amd64', os.version: '4.4.0-140-generic', java.version: '1.8.0_181'
 Driver info: org.openqa.selenium.firefox.FirefoxDriver
-Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 63.0.3, javascriptEnabled: true, moz:accessibilityChecks: false, moz:geckodriverVersion: 0.23.0, moz:headless: false, moz:processID: 15217, moz:profile: /tmp/rust_mozprofile.5fy10S..., moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, pageLoadStrategy: normal, platform: LINUX, platformName: LINUX, platformVersion: 4.4.0-140-generic, rotatable: false, setWindowRect: true, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
-Session ID: a0762709-153b-4aa2-9735-927ce04d5a2f]]>
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 64.0, javascriptEnabled: true, moz:accessibilityChecks: false, moz:geckodriverVersion: 0.23.0, moz:headless: false, moz:processID: 12840, moz:profile: /tmp/rust_mozprofile.7VAdIG..., moz:shutdownTimeout: 60000, moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, pageLoadStrategy: normal, platform: LINUX, platformName: LINUX, platformVersion: 4.4.0-140-generic, rotatable: false, setWindowRect: true, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: 842649ea-a196-4de6-90c2-a59e67558b3e]]>
             </message>
             <full-stacktrace>
               <![CDATA[org.openqa.selenium.WebDriverException: Reached error page: about:neterror?e=connectionFailure&u=http%3A//192.168.1.12%3A8000/&c=UTF-8&f=regular&d=Firefox%20can%E2%80%99t%20establish%20a%20connection%20to%20the%20server%20at%20192.168.1.12%3A8000.
 Build info: version: '3.12.0', revision: '7c6e0b3', time: '2018-05-08T14:04:26.12Z'
 System info: host: 'bynry01-ThinkCentre-M90', ip: '127.0.1.1', os.name: 'Linux', os.arch: 'amd64', os.version: '4.4.0-140-generic', java.version: '1.8.0_181'
 Driver info: org.openqa.selenium.firefox.FirefoxDriver
-Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 63.0.3, javascriptEnabled: true, moz:accessibilityChecks: false, moz:geckodriverVersion: 0.23.0, moz:headless: false, moz:processID: 15217, moz:profile: /tmp/rust_mozprofile.5fy10S..., moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, pageLoadStrategy: normal, platform: LINUX, platformName: LINUX, platformVersion: 4.4.0-140-generic, rotatable: false, setWindowRect: true, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
-Session ID: a0762709-153b-4aa2-9735-927ce04d5a2f
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 64.0, javascriptEnabled: true, moz:accessibilityChecks: false, moz:geckodriverVersion: 0.23.0, moz:headless: false, moz:processID: 12840, moz:profile: /tmp/rust_mozprofile.7VAdIG..., moz:shutdownTimeout: 60000, moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, pageLoadStrategy: normal, platform: LINUX, platformName: LINUX, platformVersion: 4.4.0-140-generic, rotatable: false, setWindowRect: true, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: 842649ea-a196-4de6-90c2-a59e67558b3e
 at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
 at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:83)
 at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:57)
@@ -71,23 +71,23 @@ at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method status="SKIP" signature="DashboardPageTitleTest()[pri:1, instance:com.qa.testcases.DashboardTest@d0a7a6bc]" name="DashboardPageTitleTest" duration-ms="0" started-at="2018-12-13T09:59:53Z" finished-at="2018-12-13T09:59:53Z">
+        <test-method status="SKIP" signature="DashboardPageTitleTest()[pri:1, instance:com.qa.testcases.DashboardTest@557e5898]" name="DashboardPageTitleTest" duration-ms="0" started-at="2018-12-17T09:28:21Z" finished-at="2018-12-17T09:28:21Z">
           <exception class="org.openqa.selenium.WebDriverException">
             <message>
               <![CDATA[Reached error page: about:neterror?e=connectionFailure&u=http%3A//192.168.1.12%3A8000/&c=UTF-8&f=regular&d=Firefox%20can%E2%80%99t%20establish%20a%20connection%20to%20the%20server%20at%20192.168.1.12%3A8000.
 Build info: version: '3.12.0', revision: '7c6e0b3', time: '2018-05-08T14:04:26.12Z'
 System info: host: 'bynry01-ThinkCentre-M90', ip: '127.0.1.1', os.name: 'Linux', os.arch: 'amd64', os.version: '4.4.0-140-generic', java.version: '1.8.0_181'
 Driver info: org.openqa.selenium.firefox.FirefoxDriver
-Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 63.0.3, javascriptEnabled: true, moz:accessibilityChecks: false, moz:geckodriverVersion: 0.23.0, moz:headless: false, moz:processID: 15217, moz:profile: /tmp/rust_mozprofile.5fy10S..., moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, pageLoadStrategy: normal, platform: LINUX, platformName: LINUX, platformVersion: 4.4.0-140-generic, rotatable: false, setWindowRect: true, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
-Session ID: a0762709-153b-4aa2-9735-927ce04d5a2f]]>
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 64.0, javascriptEnabled: true, moz:accessibilityChecks: false, moz:geckodriverVersion: 0.23.0, moz:headless: false, moz:processID: 12840, moz:profile: /tmp/rust_mozprofile.7VAdIG..., moz:shutdownTimeout: 60000, moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, pageLoadStrategy: normal, platform: LINUX, platformName: LINUX, platformVersion: 4.4.0-140-generic, rotatable: false, setWindowRect: true, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: 842649ea-a196-4de6-90c2-a59e67558b3e]]>
             </message>
             <full-stacktrace>
               <![CDATA[org.openqa.selenium.WebDriverException: Reached error page: about:neterror?e=connectionFailure&u=http%3A//192.168.1.12%3A8000/&c=UTF-8&f=regular&d=Firefox%20can%E2%80%99t%20establish%20a%20connection%20to%20the%20server%20at%20192.168.1.12%3A8000.
 Build info: version: '3.12.0', revision: '7c6e0b3', time: '2018-05-08T14:04:26.12Z'
 System info: host: 'bynry01-ThinkCentre-M90', ip: '127.0.1.1', os.name: 'Linux', os.arch: 'amd64', os.version: '4.4.0-140-generic', java.version: '1.8.0_181'
 Driver info: org.openqa.selenium.firefox.FirefoxDriver
-Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 63.0.3, javascriptEnabled: true, moz:accessibilityChecks: false, moz:geckodriverVersion: 0.23.0, moz:headless: false, moz:processID: 15217, moz:profile: /tmp/rust_mozprofile.5fy10S..., moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, pageLoadStrategy: normal, platform: LINUX, platformName: LINUX, platformVersion: 4.4.0-140-generic, rotatable: false, setWindowRect: true, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
-Session ID: a0762709-153b-4aa2-9735-927ce04d5a2f
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 64.0, javascriptEnabled: true, moz:accessibilityChecks: false, moz:geckodriverVersion: 0.23.0, moz:headless: false, moz:processID: 12840, moz:profile: /tmp/rust_mozprofile.7VAdIG..., moz:shutdownTimeout: 60000, moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, pageLoadStrategy: normal, platform: LINUX, platformName: LINUX, platformVersion: 4.4.0-140-generic, rotatable: false, setWindowRect: true, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: 842649ea-a196-4de6-90c2-a59e67558b3e
 at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
 at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:83)
 at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:57)
@@ -135,29 +135,29 @@ at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- DashboardPageTitleTest -->
-        <test-method status="SKIP" signature="tearDown()[pri:0, instance:com.qa.testcases.DashboardTest@d0a7a6bc]" name="tearDown" is-config="true" duration-ms="0" started-at="2018-12-13T09:59:53Z" finished-at="2018-12-13T09:59:53Z">
+        <test-method status="SKIP" signature="tearDown()[pri:0, instance:com.qa.testcases.DashboardTest@557e5898]" name="tearDown" is-config="true" duration-ms="0" started-at="2018-12-17T09:28:21Z" finished-at="2018-12-17T09:28:21Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
       </class> <!-- com.qa.testcases.DashboardTest -->
       <class name="com.qa.testcases.LoginpageTest">
-        <test-method status="FAIL" signature="setUp()[pri:0, instance:com.qa.testcases.LoginpageTest@e9e25dfb]" name="setUp" is-config="true" duration-ms="27750" started-at="2018-12-13T09:59:14Z" finished-at="2018-12-13T09:59:42Z">
+        <test-method status="FAIL" signature="setUp()[pri:0, instance:com.qa.testcases.LoginpageTest@e9631569]" name="setUp" is-config="true" duration-ms="21698" started-at="2018-12-17T09:27:46Z" finished-at="2018-12-17T09:28:07Z">
           <exception class="org.openqa.selenium.WebDriverException">
             <message>
               <![CDATA[Reached error page: about:neterror?e=connectionFailure&u=http%3A//192.168.1.12%3A8000/&c=UTF-8&f=regular&d=Firefox%20can%E2%80%99t%20establish%20a%20connection%20to%20the%20server%20at%20192.168.1.12%3A8000.
 Build info: version: '3.12.0', revision: '7c6e0b3', time: '2018-05-08T14:04:26.12Z'
 System info: host: 'bynry01-ThinkCentre-M90', ip: '127.0.1.1', os.name: 'Linux', os.arch: 'amd64', os.version: '4.4.0-140-generic', java.version: '1.8.0_181'
 Driver info: org.openqa.selenium.firefox.FirefoxDriver
-Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 63.0.3, javascriptEnabled: true, moz:accessibilityChecks: false, moz:geckodriverVersion: 0.23.0, moz:headless: false, moz:processID: 14979, moz:profile: /tmp/rust_mozprofile.kEQtcQ..., moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, pageLoadStrategy: normal, platform: LINUX, platformName: LINUX, platformVersion: 4.4.0-140-generic, rotatable: false, setWindowRect: true, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
-Session ID: c1c2b603-9075-4818-be89-615ddbf4d91a]]>
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 64.0, javascriptEnabled: true, moz:accessibilityChecks: false, moz:geckodriverVersion: 0.23.0, moz:headless: false, moz:processID: 12568, moz:profile: /tmp/rust_mozprofile.1qJxqF..., moz:shutdownTimeout: 60000, moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, pageLoadStrategy: normal, platform: LINUX, platformName: LINUX, platformVersion: 4.4.0-140-generic, rotatable: false, setWindowRect: true, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: 268fbde6-f245-4c58-8059-91f096646421]]>
             </message>
             <full-stacktrace>
               <![CDATA[org.openqa.selenium.WebDriverException: Reached error page: about:neterror?e=connectionFailure&u=http%3A//192.168.1.12%3A8000/&c=UTF-8&f=regular&d=Firefox%20can%E2%80%99t%20establish%20a%20connection%20to%20the%20server%20at%20192.168.1.12%3A8000.
 Build info: version: '3.12.0', revision: '7c6e0b3', time: '2018-05-08T14:04:26.12Z'
 System info: host: 'bynry01-ThinkCentre-M90', ip: '127.0.1.1', os.name: 'Linux', os.arch: 'amd64', os.version: '4.4.0-140-generic', java.version: '1.8.0_181'
 Driver info: org.openqa.selenium.firefox.FirefoxDriver
-Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 63.0.3, javascriptEnabled: true, moz:accessibilityChecks: false, moz:geckodriverVersion: 0.23.0, moz:headless: false, moz:processID: 14979, moz:profile: /tmp/rust_mozprofile.kEQtcQ..., moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, pageLoadStrategy: normal, platform: LINUX, platformName: LINUX, platformVersion: 4.4.0-140-generic, rotatable: false, setWindowRect: true, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
-Session ID: c1c2b603-9075-4818-be89-615ddbf4d91a
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 64.0, javascriptEnabled: true, moz:accessibilityChecks: false, moz:geckodriverVersion: 0.23.0, moz:headless: false, moz:processID: 12568, moz:profile: /tmp/rust_mozprofile.1qJxqF..., moz:shutdownTimeout: 60000, moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, pageLoadStrategy: normal, platform: LINUX, platformName: LINUX, platformVersion: 4.4.0-140-generic, rotatable: false, setWindowRect: true, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: 268fbde6-f245-4c58-8059-91f096646421
 at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
 at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:83)
 at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:57)
@@ -205,23 +205,23 @@ at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method status="SKIP" signature="loginPageTitleTest()[pri:1, instance:com.qa.testcases.LoginpageTest@e9e25dfb]" name="loginPageTitleTest" duration-ms="0" started-at="2018-12-13T09:59:42Z" finished-at="2018-12-13T09:59:42Z">
+        <test-method status="SKIP" signature="loginPageTitleTest()[pri:1, instance:com.qa.testcases.LoginpageTest@e9631569]" name="loginPageTitleTest" duration-ms="0" started-at="2018-12-17T09:28:07Z" finished-at="2018-12-17T09:28:07Z">
           <exception class="org.openqa.selenium.WebDriverException">
             <message>
               <![CDATA[Reached error page: about:neterror?e=connectionFailure&u=http%3A//192.168.1.12%3A8000/&c=UTF-8&f=regular&d=Firefox%20can%E2%80%99t%20establish%20a%20connection%20to%20the%20server%20at%20192.168.1.12%3A8000.
 Build info: version: '3.12.0', revision: '7c6e0b3', time: '2018-05-08T14:04:26.12Z'
 System info: host: 'bynry01-ThinkCentre-M90', ip: '127.0.1.1', os.name: 'Linux', os.arch: 'amd64', os.version: '4.4.0-140-generic', java.version: '1.8.0_181'
 Driver info: org.openqa.selenium.firefox.FirefoxDriver
-Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 63.0.3, javascriptEnabled: true, moz:accessibilityChecks: false, moz:geckodriverVersion: 0.23.0, moz:headless: false, moz:processID: 14979, moz:profile: /tmp/rust_mozprofile.kEQtcQ..., moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, pageLoadStrategy: normal, platform: LINUX, platformName: LINUX, platformVersion: 4.4.0-140-generic, rotatable: false, setWindowRect: true, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
-Session ID: c1c2b603-9075-4818-be89-615ddbf4d91a]]>
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 64.0, javascriptEnabled: true, moz:accessibilityChecks: false, moz:geckodriverVersion: 0.23.0, moz:headless: false, moz:processID: 12568, moz:profile: /tmp/rust_mozprofile.1qJxqF..., moz:shutdownTimeout: 60000, moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, pageLoadStrategy: normal, platform: LINUX, platformName: LINUX, platformVersion: 4.4.0-140-generic, rotatable: false, setWindowRect: true, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: 268fbde6-f245-4c58-8059-91f096646421]]>
             </message>
             <full-stacktrace>
               <![CDATA[org.openqa.selenium.WebDriverException: Reached error page: about:neterror?e=connectionFailure&u=http%3A//192.168.1.12%3A8000/&c=UTF-8&f=regular&d=Firefox%20can%E2%80%99t%20establish%20a%20connection%20to%20the%20server%20at%20192.168.1.12%3A8000.
 Build info: version: '3.12.0', revision: '7c6e0b3', time: '2018-05-08T14:04:26.12Z'
 System info: host: 'bynry01-ThinkCentre-M90', ip: '127.0.1.1', os.name: 'Linux', os.arch: 'amd64', os.version: '4.4.0-140-generic', java.version: '1.8.0_181'
 Driver info: org.openqa.selenium.firefox.FirefoxDriver
-Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 63.0.3, javascriptEnabled: true, moz:accessibilityChecks: false, moz:geckodriverVersion: 0.23.0, moz:headless: false, moz:processID: 14979, moz:profile: /tmp/rust_mozprofile.kEQtcQ..., moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, pageLoadStrategy: normal, platform: LINUX, platformName: LINUX, platformVersion: 4.4.0-140-generic, rotatable: false, setWindowRect: true, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
-Session ID: c1c2b603-9075-4818-be89-615ddbf4d91a
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 64.0, javascriptEnabled: true, moz:accessibilityChecks: false, moz:geckodriverVersion: 0.23.0, moz:headless: false, moz:processID: 12568, moz:profile: /tmp/rust_mozprofile.1qJxqF..., moz:shutdownTimeout: 60000, moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, pageLoadStrategy: normal, platform: LINUX, platformName: LINUX, platformVersion: 4.4.0-140-generic, rotatable: false, setWindowRect: true, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: 268fbde6-f245-4c58-8059-91f096646421
 at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
 at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:83)
 at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:57)
@@ -269,31 +269,31 @@ at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- loginPageTitleTest -->
-        <test-method status="SKIP" signature="tearDown()[pri:0, instance:com.qa.testcases.LoginpageTest@e9e25dfb]" name="tearDown" is-config="true" duration-ms="0" started-at="2018-12-13T09:59:42Z" finished-at="2018-12-13T09:59:42Z">
+        <test-method status="SKIP" signature="tearDown()[pri:0, instance:com.qa.testcases.LoginpageTest@e9631569]" name="tearDown" is-config="true" duration-ms="0" started-at="2018-12-17T09:28:07Z" finished-at="2018-12-17T09:28:07Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-        <test-method status="SKIP" signature="setUp()[pri:0, instance:com.qa.testcases.LoginpageTest@e9e25dfb]" name="setUp" is-config="true" duration-ms="0" started-at="2018-12-13T09:59:53Z" finished-at="2018-12-13T09:59:53Z">
+        <test-method status="SKIP" signature="setUp()[pri:0, instance:com.qa.testcases.LoginpageTest@e9631569]" name="setUp" is-config="true" duration-ms="0" started-at="2018-12-17T09:28:21Z" finished-at="2018-12-17T09:28:21Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method status="SKIP" signature="loginPageFormTitle()[pri:2, instance:com.qa.testcases.LoginpageTest@e9e25dfb]" name="loginPageFormTitle" duration-ms="0" started-at="2018-12-13T09:59:53Z" finished-at="2018-12-13T09:59:53Z">
+        <test-method status="SKIP" signature="loginPageFormTitle()[pri:2, instance:com.qa.testcases.LoginpageTest@e9631569]" name="loginPageFormTitle" duration-ms="0" started-at="2018-12-17T09:28:21Z" finished-at="2018-12-17T09:28:21Z">
           <exception class="org.openqa.selenium.WebDriverException">
             <message>
               <![CDATA[Reached error page: about:neterror?e=connectionFailure&u=http%3A//192.168.1.12%3A8000/&c=UTF-8&f=regular&d=Firefox%20can%E2%80%99t%20establish%20a%20connection%20to%20the%20server%20at%20192.168.1.12%3A8000.
 Build info: version: '3.12.0', revision: '7c6e0b3', time: '2018-05-08T14:04:26.12Z'
 System info: host: 'bynry01-ThinkCentre-M90', ip: '127.0.1.1', os.name: 'Linux', os.arch: 'amd64', os.version: '4.4.0-140-generic', java.version: '1.8.0_181'
 Driver info: org.openqa.selenium.firefox.FirefoxDriver
-Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 63.0.3, javascriptEnabled: true, moz:accessibilityChecks: false, moz:geckodriverVersion: 0.23.0, moz:headless: false, moz:processID: 14979, moz:profile: /tmp/rust_mozprofile.kEQtcQ..., moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, pageLoadStrategy: normal, platform: LINUX, platformName: LINUX, platformVersion: 4.4.0-140-generic, rotatable: false, setWindowRect: true, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
-Session ID: c1c2b603-9075-4818-be89-615ddbf4d91a]]>
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 64.0, javascriptEnabled: true, moz:accessibilityChecks: false, moz:geckodriverVersion: 0.23.0, moz:headless: false, moz:processID: 12568, moz:profile: /tmp/rust_mozprofile.1qJxqF..., moz:shutdownTimeout: 60000, moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, pageLoadStrategy: normal, platform: LINUX, platformName: LINUX, platformVersion: 4.4.0-140-generic, rotatable: false, setWindowRect: true, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: 268fbde6-f245-4c58-8059-91f096646421]]>
             </message>
             <full-stacktrace>
               <![CDATA[org.openqa.selenium.WebDriverException: Reached error page: about:neterror?e=connectionFailure&u=http%3A//192.168.1.12%3A8000/&c=UTF-8&f=regular&d=Firefox%20can%E2%80%99t%20establish%20a%20connection%20to%20the%20server%20at%20192.168.1.12%3A8000.
 Build info: version: '3.12.0', revision: '7c6e0b3', time: '2018-05-08T14:04:26.12Z'
 System info: host: 'bynry01-ThinkCentre-M90', ip: '127.0.1.1', os.name: 'Linux', os.arch: 'amd64', os.version: '4.4.0-140-generic', java.version: '1.8.0_181'
 Driver info: org.openqa.selenium.firefox.FirefoxDriver
-Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 63.0.3, javascriptEnabled: true, moz:accessibilityChecks: false, moz:geckodriverVersion: 0.23.0, moz:headless: false, moz:processID: 14979, moz:profile: /tmp/rust_mozprofile.kEQtcQ..., moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, pageLoadStrategy: normal, platform: LINUX, platformName: LINUX, platformVersion: 4.4.0-140-generic, rotatable: false, setWindowRect: true, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
-Session ID: c1c2b603-9075-4818-be89-615ddbf4d91a
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 64.0, javascriptEnabled: true, moz:accessibilityChecks: false, moz:geckodriverVersion: 0.23.0, moz:headless: false, moz:processID: 12568, moz:profile: /tmp/rust_mozprofile.1qJxqF..., moz:shutdownTimeout: 60000, moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, pageLoadStrategy: normal, platform: LINUX, platformName: LINUX, platformVersion: 4.4.0-140-generic, rotatable: false, setWindowRect: true, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: 268fbde6-f245-4c58-8059-91f096646421
 at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
 at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:83)
 at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:57)
@@ -341,31 +341,31 @@ at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- loginPageFormTitle -->
-        <test-method status="SKIP" signature="tearDown()[pri:0, instance:com.qa.testcases.LoginpageTest@e9e25dfb]" name="tearDown" is-config="true" duration-ms="0" started-at="2018-12-13T09:59:53Z" finished-at="2018-12-13T09:59:53Z">
+        <test-method status="SKIP" signature="tearDown()[pri:0, instance:com.qa.testcases.LoginpageTest@e9631569]" name="tearDown" is-config="true" duration-ms="0" started-at="2018-12-17T09:28:21Z" finished-at="2018-12-17T09:28:21Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-        <test-method status="SKIP" signature="setUp()[pri:0, instance:com.qa.testcases.LoginpageTest@e9e25dfb]" name="setUp" is-config="true" duration-ms="0" started-at="2018-12-13T09:59:53Z" finished-at="2018-12-13T09:59:53Z">
+        <test-method status="SKIP" signature="setUp()[pri:0, instance:com.qa.testcases.LoginpageTest@e9631569]" name="setUp" is-config="true" duration-ms="0" started-at="2018-12-17T09:28:21Z" finished-at="2018-12-17T09:28:21Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method status="SKIP" signature="loginPageLogoTest()[pri:2, instance:com.qa.testcases.LoginpageTest@e9e25dfb]" name="loginPageLogoTest" duration-ms="0" started-at="2018-12-13T09:59:53Z" finished-at="2018-12-13T09:59:53Z">
+        <test-method status="SKIP" signature="loginPageLogoTest()[pri:2, instance:com.qa.testcases.LoginpageTest@e9631569]" name="loginPageLogoTest" duration-ms="0" started-at="2018-12-17T09:28:21Z" finished-at="2018-12-17T09:28:21Z">
           <exception class="org.openqa.selenium.WebDriverException">
             <message>
               <![CDATA[Reached error page: about:neterror?e=connectionFailure&u=http%3A//192.168.1.12%3A8000/&c=UTF-8&f=regular&d=Firefox%20can%E2%80%99t%20establish%20a%20connection%20to%20the%20server%20at%20192.168.1.12%3A8000.
 Build info: version: '3.12.0', revision: '7c6e0b3', time: '2018-05-08T14:04:26.12Z'
 System info: host: 'bynry01-ThinkCentre-M90', ip: '127.0.1.1', os.name: 'Linux', os.arch: 'amd64', os.version: '4.4.0-140-generic', java.version: '1.8.0_181'
 Driver info: org.openqa.selenium.firefox.FirefoxDriver
-Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 63.0.3, javascriptEnabled: true, moz:accessibilityChecks: false, moz:geckodriverVersion: 0.23.0, moz:headless: false, moz:processID: 14979, moz:profile: /tmp/rust_mozprofile.kEQtcQ..., moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, pageLoadStrategy: normal, platform: LINUX, platformName: LINUX, platformVersion: 4.4.0-140-generic, rotatable: false, setWindowRect: true, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
-Session ID: c1c2b603-9075-4818-be89-615ddbf4d91a]]>
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 64.0, javascriptEnabled: true, moz:accessibilityChecks: false, moz:geckodriverVersion: 0.23.0, moz:headless: false, moz:processID: 12568, moz:profile: /tmp/rust_mozprofile.1qJxqF..., moz:shutdownTimeout: 60000, moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, pageLoadStrategy: normal, platform: LINUX, platformName: LINUX, platformVersion: 4.4.0-140-generic, rotatable: false, setWindowRect: true, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: 268fbde6-f245-4c58-8059-91f096646421]]>
             </message>
             <full-stacktrace>
               <![CDATA[org.openqa.selenium.WebDriverException: Reached error page: about:neterror?e=connectionFailure&u=http%3A//192.168.1.12%3A8000/&c=UTF-8&f=regular&d=Firefox%20can%E2%80%99t%20establish%20a%20connection%20to%20the%20server%20at%20192.168.1.12%3A8000.
 Build info: version: '3.12.0', revision: '7c6e0b3', time: '2018-05-08T14:04:26.12Z'
 System info: host: 'bynry01-ThinkCentre-M90', ip: '127.0.1.1', os.name: 'Linux', os.arch: 'amd64', os.version: '4.4.0-140-generic', java.version: '1.8.0_181'
 Driver info: org.openqa.selenium.firefox.FirefoxDriver
-Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 63.0.3, javascriptEnabled: true, moz:accessibilityChecks: false, moz:geckodriverVersion: 0.23.0, moz:headless: false, moz:processID: 14979, moz:profile: /tmp/rust_mozprofile.kEQtcQ..., moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, pageLoadStrategy: normal, platform: LINUX, platformName: LINUX, platformVersion: 4.4.0-140-generic, rotatable: false, setWindowRect: true, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
-Session ID: c1c2b603-9075-4818-be89-615ddbf4d91a
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 64.0, javascriptEnabled: true, moz:accessibilityChecks: false, moz:geckodriverVersion: 0.23.0, moz:headless: false, moz:processID: 12568, moz:profile: /tmp/rust_mozprofile.1qJxqF..., moz:shutdownTimeout: 60000, moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, pageLoadStrategy: normal, platform: LINUX, platformName: LINUX, platformVersion: 4.4.0-140-generic, rotatable: false, setWindowRect: true, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: 268fbde6-f245-4c58-8059-91f096646421
 at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
 at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:83)
 at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:57)
@@ -413,31 +413,31 @@ at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- loginPageLogoTest -->
-        <test-method status="SKIP" signature="tearDown()[pri:0, instance:com.qa.testcases.LoginpageTest@e9e25dfb]" name="tearDown" is-config="true" duration-ms="0" started-at="2018-12-13T09:59:53Z" finished-at="2018-12-13T09:59:53Z">
+        <test-method status="SKIP" signature="tearDown()[pri:0, instance:com.qa.testcases.LoginpageTest@e9631569]" name="tearDown" is-config="true" duration-ms="0" started-at="2018-12-17T09:28:21Z" finished-at="2018-12-17T09:28:21Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-        <test-method status="SKIP" signature="setUp()[pri:0, instance:com.qa.testcases.LoginpageTest@e9e25dfb]" name="setUp" is-config="true" duration-ms="0" started-at="2018-12-13T09:59:53Z" finished-at="2018-12-13T09:59:53Z">
+        <test-method status="SKIP" signature="setUp()[pri:0, instance:com.qa.testcases.LoginpageTest@e9631569]" name="setUp" is-config="true" duration-ms="0" started-at="2018-12-17T09:28:21Z" finished-at="2018-12-17T09:28:21Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method status="SKIP" signature="loginTest()[pri:3, instance:com.qa.testcases.LoginpageTest@e9e25dfb]" name="loginTest" duration-ms="0" started-at="2018-12-13T09:59:53Z" finished-at="2018-12-13T09:59:53Z">
+        <test-method status="SKIP" signature="loginTest()[pri:3, instance:com.qa.testcases.LoginpageTest@e9631569]" name="loginTest" duration-ms="0" started-at="2018-12-17T09:28:21Z" finished-at="2018-12-17T09:28:21Z">
           <exception class="org.openqa.selenium.WebDriverException">
             <message>
               <![CDATA[Reached error page: about:neterror?e=connectionFailure&u=http%3A//192.168.1.12%3A8000/&c=UTF-8&f=regular&d=Firefox%20can%E2%80%99t%20establish%20a%20connection%20to%20the%20server%20at%20192.168.1.12%3A8000.
 Build info: version: '3.12.0', revision: '7c6e0b3', time: '2018-05-08T14:04:26.12Z'
 System info: host: 'bynry01-ThinkCentre-M90', ip: '127.0.1.1', os.name: 'Linux', os.arch: 'amd64', os.version: '4.4.0-140-generic', java.version: '1.8.0_181'
 Driver info: org.openqa.selenium.firefox.FirefoxDriver
-Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 63.0.3, javascriptEnabled: true, moz:accessibilityChecks: false, moz:geckodriverVersion: 0.23.0, moz:headless: false, moz:processID: 14979, moz:profile: /tmp/rust_mozprofile.kEQtcQ..., moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, pageLoadStrategy: normal, platform: LINUX, platformName: LINUX, platformVersion: 4.4.0-140-generic, rotatable: false, setWindowRect: true, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
-Session ID: c1c2b603-9075-4818-be89-615ddbf4d91a]]>
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 64.0, javascriptEnabled: true, moz:accessibilityChecks: false, moz:geckodriverVersion: 0.23.0, moz:headless: false, moz:processID: 12568, moz:profile: /tmp/rust_mozprofile.1qJxqF..., moz:shutdownTimeout: 60000, moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, pageLoadStrategy: normal, platform: LINUX, platformName: LINUX, platformVersion: 4.4.0-140-generic, rotatable: false, setWindowRect: true, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: 268fbde6-f245-4c58-8059-91f096646421]]>
             </message>
             <full-stacktrace>
               <![CDATA[org.openqa.selenium.WebDriverException: Reached error page: about:neterror?e=connectionFailure&u=http%3A//192.168.1.12%3A8000/&c=UTF-8&f=regular&d=Firefox%20can%E2%80%99t%20establish%20a%20connection%20to%20the%20server%20at%20192.168.1.12%3A8000.
 Build info: version: '3.12.0', revision: '7c6e0b3', time: '2018-05-08T14:04:26.12Z'
 System info: host: 'bynry01-ThinkCentre-M90', ip: '127.0.1.1', os.name: 'Linux', os.arch: 'amd64', os.version: '4.4.0-140-generic', java.version: '1.8.0_181'
 Driver info: org.openqa.selenium.firefox.FirefoxDriver
-Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 63.0.3, javascriptEnabled: true, moz:accessibilityChecks: false, moz:geckodriverVersion: 0.23.0, moz:headless: false, moz:processID: 14979, moz:profile: /tmp/rust_mozprofile.kEQtcQ..., moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, pageLoadStrategy: normal, platform: LINUX, platformName: LINUX, platformVersion: 4.4.0-140-generic, rotatable: false, setWindowRect: true, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
-Session ID: c1c2b603-9075-4818-be89-615ddbf4d91a
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 64.0, javascriptEnabled: true, moz:accessibilityChecks: false, moz:geckodriverVersion: 0.23.0, moz:headless: false, moz:processID: 12568, moz:profile: /tmp/rust_mozprofile.1qJxqF..., moz:shutdownTimeout: 60000, moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, pageLoadStrategy: normal, platform: LINUX, platformName: LINUX, platformVersion: 4.4.0-140-generic, rotatable: false, setWindowRect: true, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: 268fbde6-f245-4c58-8059-91f096646421
 at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
 at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:83)
 at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:57)
@@ -485,7 +485,7 @@ at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- loginTest -->
-        <test-method status="SKIP" signature="tearDown()[pri:0, instance:com.qa.testcases.LoginpageTest@e9e25dfb]" name="tearDown" is-config="true" duration-ms="0" started-at="2018-12-13T09:59:53Z" finished-at="2018-12-13T09:59:53Z">
+        <test-method status="SKIP" signature="tearDown()[pri:0, instance:com.qa.testcases.LoginpageTest@e9631569]" name="tearDown" is-config="true" duration-ms="0" started-at="2018-12-17T09:28:21Z" finished-at="2018-12-17T09:28:21Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->

@@ -2,17 +2,24 @@
 <!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
 <suite name="Suite" parallel="false">
 
-<!-- 
-	<listeners>
- 	=========Runtime Retry Analyzer==========
+ 
+  <listeners>
+ 		<!-- ==================For Extent Report(Successfully Executed)====================  -->
+        <listener class-name="com.qa.ExtentReoprtListener.ExtentReport"/>
+    </listeners>   
+    
+ 
+   <!--<listeners>
+ 		=========Runtime Retry Analyzer==========  
         <listener class-name="com.retryAnalyzer.RunTime_RetryAnalyzer"/>
-    </listeners>
--->
+    </listeners>   
+ -->
+
  
   <test name="Test">
     <classes>
-    		 <class name="com.qa.testcases.LoginpageTest"/>
-			 <class name="com.qa.testcases.DashboardTest"/>
+    	<class name="com.qa.testcases.LoginpageTest"/>
+		<class name="com.qa.testcases.DashboardTest"/>
     </classes>
   </test> <!-- Test -->
 </suite> <!-- Suite -->

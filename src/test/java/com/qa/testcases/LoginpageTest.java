@@ -58,11 +58,9 @@ public class LoginpageTest extends BaseClass{
 	  
   }
   
-  
   @Test(priority=3)
   public void loginTest() {
 	dashboard= login.login(prop.getProperty("username"), prop.getProperty("password"));
-	
   }
 
   @AfterMethod
